@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/aaa"
+        android:title="搜索"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/delete"
+        android:title="删除"
+        app:showAsAction="never" />
+    <!--如果Toolbar 有足够控件就显示出来,没有就隐藏在下拉列表中
+        app:showAsAction="never"-->
+
+    <item
+        android:id="@+id/follow"
+        android:title="关注"
+        app:showAsAction="never" />
+</menu>
